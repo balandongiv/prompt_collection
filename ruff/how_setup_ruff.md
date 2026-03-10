@@ -26,7 +26,11 @@ ruff check . --fix
 Format:
 
 ```bash
-ruff format .
+ruff check .
 ```
 
+
+ruff check . --fix --unsafe-fixes
+
 ---
+pip install --force-reinstall git+https://github.com/balandongiv/pyblinker.git@main
