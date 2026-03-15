@@ -3,9 +3,9 @@ To wrap text in VS Code, you can use the following keyboard shortcut:
 
 To compile latex in VS Code, using the Xelatex engine, you can use the following steps:.
 In the terminal
-
+```bash
 xelatex -shell-escape main.tex && xelatex -shell-escape main.tex
-
+````
 
 For Cleaning Up LaTeX Auxiliary Files:
 ```bash
